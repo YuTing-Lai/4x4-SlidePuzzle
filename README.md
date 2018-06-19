@@ -1,7 +1,7 @@
 # 4*4 Slide-Puzzle
 
 The **Slide-Puzzle** look like this.
-![920px-15-puzzle svg](https://user-images.githubusercontent.com/40336920/41589667-ad6f9b70-73e7-11e8-8327-68018e5b18a2.png)
+<img width="476" alt="2018-06-19 7 37 14" src="https://user-images.githubusercontent.com/40336920/41595130-4cf2171c-73f8-11e8-94df-788a68ac4861.png">
 
 
 ## How to play?
