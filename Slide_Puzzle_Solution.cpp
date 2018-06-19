@@ -1143,7 +1143,7 @@ int main() {
 	cc = 0;
 
 	cout << "Input the puzzle, from left to right, from up to down." << endl;
-	cout << "If it is the space, input 16." << endl;
+	cout << "If it is the blank, input 16." << endl;
 
 	int puzzle_number;
 	for(int i=0; i<16; i++){
