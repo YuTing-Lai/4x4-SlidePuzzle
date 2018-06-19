@@ -15,6 +15,7 @@ The **Slide-Puzzle** look like this.
 ## Game Tutorial View
 ### Move the number
 If you want to move the 10 to the right.
+
 <img width="363" alt="2018-06-19 6 44 06" src="https://user-images.githubusercontent.com/40336920/41593202-e019b5e2-73f1-11e8-961a-df1064154e6a.png">
 
 Type **10** and **Enter**.
