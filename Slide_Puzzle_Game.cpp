@@ -120,7 +120,7 @@ int main() {
 		}
 	}
 
-	print_puzzle(puzzle);
+//	print_puzzle(puzzle);
 
 	for(int i=0; i<10000; i++){
 		int random_switch = rand() % 15 + 1;
@@ -141,8 +141,10 @@ int main() {
 		print_puzzle(puzzle);
 
 		if(correct()){
-			cout <<"Finished! Great Job!" << endl;
+			cout << "Finished! Great Job!" << endl;
 			break;
+		}else{
+			cout << "Enter the number you want to move:" << endl;
 		}
 	}
 
