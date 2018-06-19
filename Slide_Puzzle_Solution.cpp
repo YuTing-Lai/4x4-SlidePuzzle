@@ -124,6 +124,14 @@ void putOne(){
 		}
 		int rowA = posA/4 + 1;
 		int colA = posA%4 + 1;
+		
+		//move the 16 to row1 col1
+		for(int i=0; i<rowA-1; i++){
+			swap_puzzle('u');
+		}
+		for(int i=0; i<colA-1; i++){
+			swap_puzzle('l');
+		}
 
 		//number 1's position
 		int posB=0;
@@ -135,13 +143,7 @@ void putOne(){
 		int colB = posB%4 + 1;
 
 
-		//move the 16 to row1 col1
-		for(int i=0; i<rowA-1; i++){
-			swap_puzzle('u');
-		}
-		for(int i=0; i<colA-1; i++){
-			swap_puzzle('l');
-		}
+
 
 		//move 1 to the row1 first
 		//if 1 is at row1, put 16 to the left side of 1
